@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Description: if else
+ * Description: for loop
  *
  * Return: Always 0 (success)
 */
