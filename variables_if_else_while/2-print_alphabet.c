@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * Main - Prints the alphabet in lowercase, followed by a new line
  *
- * prints the alphabet in lowercase with for loop
- *
- * Return = Always 0 (success)
+ * Return = Always 0 (Success)
 */
 int main(void)
 {
