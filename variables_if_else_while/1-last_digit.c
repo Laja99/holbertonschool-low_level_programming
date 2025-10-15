@@ -4,6 +4,8 @@
 /**
  * main - Entry point
  *
+ * Description: if else
+ *
  * Return: Always 0 (success)
 */
 int main(void)
