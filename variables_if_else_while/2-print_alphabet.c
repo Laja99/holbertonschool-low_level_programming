@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * Main
+ * Main - Entry point
  *
- * prints the alphabet in lowercase
+ * prints the alphabet in lowercase with for loop
  *
  * Return = Always 0 (success)
 */
@@ -14,5 +14,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
+	putchar("\n");
 	return (0);
 }
