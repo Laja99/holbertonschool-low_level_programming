@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: loop for numbers [0-9]
+ * Description: for loop to print [0-9]
  *
  * return = Always 0 (seccess)
 */
