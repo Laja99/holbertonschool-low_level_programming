@@ -4,7 +4,7 @@
  *
  * Description: for loop to print [0-9]
  *
- * Return = Always 0 (Seccess)
+ * Return: Always 0 (Seccess)
 */
 int main(void)
 {
