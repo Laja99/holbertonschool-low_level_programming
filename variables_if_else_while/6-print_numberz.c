@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - point start
+ * main - entry point
  *
  * Description: loop for numbers [0-9]
  *
