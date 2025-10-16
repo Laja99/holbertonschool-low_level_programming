@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - entry point
+ * main - Entry point of the program
  *
  * Description: for loop to print [0-9]
  *
