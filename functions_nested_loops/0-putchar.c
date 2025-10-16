@@ -11,9 +11,9 @@ int main(void)
 
 	while (ch[index] != '\0')
 	{
-		putchar(ch[index]);
+		_putchar(ch[index]);
 		index++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 }
