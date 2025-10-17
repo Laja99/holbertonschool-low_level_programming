@@ -4,15 +4,15 @@
  *
  * Return: Always 0 (Seccess)
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 	int index = 0;
 
 	while (ch[index] != '\0')
 	{
-		putchar(ch[index]);
+		_putchar(ch[index]);
 		index++;
 	}
-	putchar('\n');
+	_putchar('\n');
 }
