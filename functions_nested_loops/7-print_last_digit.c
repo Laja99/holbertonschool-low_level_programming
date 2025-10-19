@@ -1,10 +1,19 @@
-int main(void)
+#include "main.h"
+/**
+ * print_last_digit - prints the last digit of a number
+ * @n: the input integer
+ *
+ * Return: the value of the last digit
+ */
+int print_last_digit(int n)
 {
-	int n =789;
 	int last_digit;
 
+	if (n < 0)
+		n = -n;
 	last_digit = n % 10;
-	printf("Last digit of %d is %d ", n, last_digit);
-	putchar('\n');
-	return (0);
+
+	_putchar(last_digit + '0');
+
+	return (last_digit);
 }
