@@ -9,21 +9,11 @@ int _islower(int c)
 {
 	char ch[] = "abcdefghijklmnopqrstuvwxyz";
 	int index;
-	int r;
 
 	for (index = 0; ch[index] != '\0'; index++)
 	{
 		if (c == ch[index])
-		{
-			r = 1;
-			break;
-		}
-		else
-		{
-			r = 0;
-		}
+			return(1);
 	}
-
-	putchar(r + '0');
-	_putchar('\n');
+	return(0);
 }
