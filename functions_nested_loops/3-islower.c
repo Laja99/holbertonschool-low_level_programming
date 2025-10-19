@@ -13,7 +13,7 @@ int _islower(int c)
 	for (index = 0; ch[index] != '\0'; index++)
 	{
 		if (c == ch[index])
-			return(1);
+			return (1);
 	}
-	return(0);
+	return (0);
 }
