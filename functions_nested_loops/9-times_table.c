@@ -6,15 +6,15 @@
 void times_table(void)
 {
 	int i, j, product;
-	
+
 	for (i = 0; i <= 9; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
 			product = i * j;
-			
+
 			if (j == 0)
-			
+
 			{
 				_putchar(product + '0');
 			}
@@ -22,7 +22,7 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				
+
 				if (product < 10)
 				{
 					_putchar(' ');
@@ -35,6 +35,7 @@ void times_table(void)
 				}
 			}
 		}
-_putchar('\n');
-    }
+
+		_putchar('\n');
+	}
 }
