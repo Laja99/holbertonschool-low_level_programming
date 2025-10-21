@@ -7,7 +7,7 @@
 */
 int _isupper(int c)
 {
-        char ch[] = "ABCDEFGHIJKLONOPQRSTUVWXYZ";
+        char ch[] = "ABCDEFGHIJKLMONOPQRSTUVWXYZ";
         int index;
 
         for (index = 0; ch[index] != '\0'; index++)
