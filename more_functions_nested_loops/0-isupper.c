@@ -7,13 +7,13 @@
 */
 int _isupper(int c)
 {
-        char ch[] = "ABCDEFGHIJKLMONOPQRSTUVWXYZ";
-        int index;
+	char ch[] = "ABCDEFGHIJKLMONOPQRSTUVWXYZ";
+	int index;
 
-        for (index = 0; ch[index] != '\0'; index++)
-        {
-                if (c == ch[index])
-                        return (1);
-        }
-        return (0);
+	for (index = 0; ch[index] != '\0'; index++)
+	{
+		if (c == ch[index])
+			return (1);
+	}
+	return (0);
 }
