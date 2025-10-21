@@ -7,13 +7,10 @@
 */
 int _isdigit(int c)
 {
-	int num[] = "0123456789";
-	int index;
+	int n;
 
-	for (index = 0; num[index] != '\0'; index++)
-	{
-		if (c == num[index])
-			return (1);
-	}
-	return (0);
+	if (c >= 0 && c <= 9)
+		_putchar('1');
+	else
+		_putchar('0');
 }
