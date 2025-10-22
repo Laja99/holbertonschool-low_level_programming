@@ -19,5 +19,5 @@ void print_line(int n)
 		}
 		x++;
 	}
-	return (0);
+	return ();
 }
