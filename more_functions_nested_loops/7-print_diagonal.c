@@ -8,7 +8,7 @@
 void print_diagonal(int n)
 {
 	int row, col;
-	char s = "\";
+	char s = '\\'
 
 	if (n <= 0)
 	{
