@@ -10,14 +10,14 @@ void print_square(int size)
 	int row, col;
 	char s = '#';
 
-	if (n <= 0)
+	if (size <= 0)
 	{
 		_putchar('\n');
 		return;
 	}
-	for (row = 0; row <= size; row++)
+	for (row = 0; row < size; row++)
 	{
-		for (col = 0; col <= size; col++)
+		for (col = 0; col < size; col++)
 		{
 			_putchar(s);
 		}
