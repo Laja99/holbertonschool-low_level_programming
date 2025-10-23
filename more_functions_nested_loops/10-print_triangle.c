@@ -8,13 +8,12 @@
 void print_triangle(int size)
 {
 	int row, s, h;
-	int size = 5;
 
 	if (size <= 0)
 	{
 
 		_putchar('\n');
-		return (0);
+		return;
 	}
 	for (row = 0; row < size; row++)
 	{
