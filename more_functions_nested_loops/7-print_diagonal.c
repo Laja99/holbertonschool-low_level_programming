@@ -8,7 +8,7 @@
 void print_diagonal(int n)
 {
 	int row, col;
-	
+
 	if (n <= 0)
 	{
 		_putchar('\n');
@@ -21,7 +21,7 @@ void print_diagonal(int n)
 			_putchar(' ');
 			if (row == col)
 			{
-			_putchar('/');
+			_putchar('\');
 			}
 		}
 		_putchar('\n');
