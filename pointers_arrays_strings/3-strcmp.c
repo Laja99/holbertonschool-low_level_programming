@@ -1,22 +1,22 @@
 #include "main.h"
 
 /**
- * _strncpy - copies a string up to n bytes
- * @dest: destination buffer
- * @src: source string
- * @n: maximum number of bytes to copy
+ * _strcmp - compares two strings
+ * @s1: first string
+ * @s2: second string
  *
- * Return: dest
+ * Return: 0 if equal, positive if s1 > s2, negative if s1 < s2
  */
-char *_strncpy(char *dest, char *src, int n)
+int _strcmp(char *s1, char *s2)
 {
-	int i;
+	int i = 0;
 
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
+	while (s1[i] != '\0' && s2[i] != '\0')
+	{
+		if (s1[i] != s2[i])
+			return (s1[i] - s2[i]);
+		i++;
+	}
 
-	for (i; i < n; i++)
-		dest[i] = '\0';
-
-	return (dest);
+	return (s1[i] - s2[i]);
 }
