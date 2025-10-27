@@ -6,7 +6,7 @@
  * @n: bytes of the memory area pointed
  * Return: dest
 */
-char *_memcpy(char src, char dest, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 	
