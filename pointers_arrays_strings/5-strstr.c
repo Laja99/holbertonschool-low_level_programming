@@ -18,7 +18,6 @@ char *_strstr(char *haystack, char *needle)
 				return (&haystack[h]);
 				n++;
 			}
-			else
 		}
 	}
 	return (0);
