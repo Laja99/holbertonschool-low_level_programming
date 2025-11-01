@@ -5,11 +5,12 @@
  */
 int _strlen_recursion(char *s)
 {
-	int len = 0;
+	int len = 1;
 
-	_strlen_recursion(len + 1);
+	_strlen_recursion(len);
+	len++;
 	if (*s == '\0')
 	{
-		_putshar(len);
+		_putchar(len);
 	}
 }
