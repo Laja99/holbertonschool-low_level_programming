@@ -2,7 +2,6 @@
 /**
  * _strlen_recursion - a function that returns the length of a string
  * @s: array
- * return: 0
  */
 int _strlen_recursion(char *s)
 {
@@ -11,7 +10,7 @@ int _strlen_recursion(char *s)
 
 	if (*s == '\0')
 	{
-		return (0);
+		return;
 	}
-	return (tot);
+	_putchar(tot);
 }
