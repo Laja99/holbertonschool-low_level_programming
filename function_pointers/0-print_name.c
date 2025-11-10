@@ -16,7 +16,7 @@ void print_name(char *name, void (*f)(char *))
 	}
 	else if (f == NULL)
 	{
-		printf("there is no function\n");
+		return;
 	}
 
 }
