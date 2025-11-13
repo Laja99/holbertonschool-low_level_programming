@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		exit(99);
 	}
-	if (argc != 4 || argv[3] == NULL || argv[2] == NULL)
+	if (argc != 4 || num1 == 0 || num2 == 0)
 	{
 		printf("Error\n");
 		exit(98);
