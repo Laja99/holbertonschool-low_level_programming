@@ -14,7 +14,8 @@ int main(int argc, char *argv[])
         exit(2);
     }
     unsigned char *size = (unsigned char *) main;
-    for (int i = 0; i < n; i++)
+    int i;
+    for ( i = 0; i < n; i++)
     {
         printf("%02x", size[i]);
         if (i == n - 1)
