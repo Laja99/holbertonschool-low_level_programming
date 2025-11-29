@@ -48,7 +48,7 @@ typedef struct list_s
     unsigned int len;
     struct list_s *next;
 } list_t;
-
+```
 ## Files
 
 | File | Description |
@@ -61,7 +61,7 @@ typedef struct list_s
 | lists.h | Struct + prototypes |
 
 ## Usage Example
-ذذذ
+```c
 #include "lists.h"
 
 int main(void)
@@ -74,4 +74,4 @@ int main(void)
     free_list(head);
     return (0);
 }
-
+```
