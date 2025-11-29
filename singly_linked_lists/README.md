@@ -63,7 +63,7 @@ typedef struct list_s
 ## Usage Example
 ذذذ
 #include "lists.h"
-```
+
 int main(void)
 {
     list_t *head = NULL;
@@ -74,5 +74,4 @@ int main(void)
     free_list(head);
     return (0);
 }
-```
 
