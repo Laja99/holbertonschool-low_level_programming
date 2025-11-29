@@ -49,3 +49,30 @@ typedef struct list_s
     struct list_s *next;
 } list_t;
 
+## Files
+
+| File | Description |
+|------|-------------|
+| 0-print_list.c | Prints all elements of the list |
+| 1-list_len.c | Returns number of nodes |
+| 2-add_node.c | Adds a new node at the beginning |
+| 3-add_node_end.c | Adds a new node at the end |
+| 4-free_list.c | Frees the list |
+| lists.h | Struct + prototypes |
+
+## Usage Example
+ذذذ
+#include "lists.h"
+```
+int main(void)
+{
+    list_t *head = NULL;
+
+    add_node(&head, "Hello");
+    add_node_end(&head, "World");
+    print_list(head);
+    free_list(head);
+    return (0);
+}
+```
+
