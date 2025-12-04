@@ -7,13 +7,11 @@
  */
 int append_text_to_file(const char *filename, char *text_content)
 {
-    int fd;
-    size_t len = 0;
-    ssize_t xwrite;
+    int fd, len = 0, xwrite;
 
     if (filename == NULL)
         return (-1);
-    if (text_content != NULL && text_content[0] != '\0')
+    if (text_content != NULL)
     {
         while (text_content[len])
             len++;
